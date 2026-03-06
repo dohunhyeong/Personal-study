@@ -1,23 +1,23 @@
-import Header from './basic/Header.jsx'
-import Footer from './basic/Footer'
-import Food from './basic/Food.jsx'
-import Card from './basic/Card.jsx'
-import './App.css'
-
-
+import StudentList from './04/StudentList.jsx';
+import Card from './Card.jsx';
+import UserList from './05/UserList.jsx';
+import ConditionTest from './05/ConditionTest.jsx';
+import ListTest from './06/ListTest.jsx';
+import Button from './07/Button.jsx'
+import ProfilePicture from './07/ProfilePicture.jsx';
 
 function App() {
-  
-
-  return (
-    <>
-    <Header/>
+  return(
+  <>
     <Card/>
-    <Card/>
-    <Card/>
-    <Footer/>
-    </>
+    <StudentList/>
+    <UserList/>
+    <ConditionTest/>
+    <ListTest/>
+    <Button/>
+    <ProfilePicture/>
+  </>
   )
 }
 
-export default App
+export default App;
